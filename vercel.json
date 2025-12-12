@@ -1,12 +1,14 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/help",
-      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help"
+      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help",
+      "permanent": false
     },
     {
       "source": "/help/:path*",
-      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help/:path*"
+      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help/:path*",
+      "permanent": false
     }
   ]
 }
