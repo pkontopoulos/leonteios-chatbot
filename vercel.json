@@ -3,11 +3,17 @@
   "rewrites": [
     {
       "source": "/help",
-      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help"
+      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help",
+      "headers": {
+        "X-Forwarded-Host": "$host"
+      }
     },
     {
       "source": "/help/:path*",
-      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help/:path*"
+      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help/:path*",
+      "headers": {
+        "X-Forwarded-Host": "$host"
+      }
     }
   ]
 }
