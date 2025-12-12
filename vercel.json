@@ -9,11 +9,5 @@
       "source": "/help/:path*",
       "destination": "https://www.chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help/:path*"
     }
-  ],
-  "redirects": [
-    {
-      "source": "/_next/:path*",
-      "destination": "https://www.chatbase.co/JxNsvmYcs_LqZJs-YFO5r/_next/:path*"
-    }
   ]
 }
