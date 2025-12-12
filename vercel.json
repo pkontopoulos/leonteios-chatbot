@@ -1,11 +1,8 @@
 {
+  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/help",
-      "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help"
-    },
-    {
-      "source": "/test",
       "destination": "https://chatbase.co/JxNsvmYcs_LqZJs-YFO5r/help"
     },
     {
