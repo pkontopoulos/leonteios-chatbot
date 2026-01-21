@@ -14,6 +14,10 @@
       "destination": "https://www.chatbase.co/_next/:path*"
     },
     {
+      "source": "/__cb/_next/:path*",
+      "destination": "https://www.chatbase.co/__cb/_next/:path*"
+    },
+    {
       "source": "/static/:path*",
       "destination": "https://www.chatbase.co/static/:path*"
     },
